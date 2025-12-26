@@ -2,22 +2,20 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.para,
-.small-para {
+.para.small-para {
   color: hsl(0, 0%, 0%);
-  font-weight: 800;
+  font-weight: 950;
+  font-size: 18px;
+
 }
 
-.small-para {
-  font-size: 14px;
-  font-weight: 800;
-}
 
 .para {
-  font-size: 22px;
+  font-weight: 900;
+  font-size: 30px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,9 +27,9 @@ body {
   font-size: 20px;
 }
 
-.child {
+.text.child {
   color: rgb(0, 0, 0);
-  font-weight: 800;
+  font-weight: 950;
   font-size: 14px;
 }
 
