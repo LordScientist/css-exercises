@@ -1,1 +1,33 @@
-/* Add CSS Styling */
+body
+    {
+        background-color: rgb(71, 65, 65);
+    }
+
+.three
+    {
+        display: inline-flex;
+        background-color: white;
+        margin: 40px;  
+        border: 10px solid white;
+        gap: 8px;
+    }
+
+.one
+    {
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid grey;
+        padding: 18px;
+        background-color: black;
+        color: white;
+        
+    }
+
+.two
+    {
+        font-size: 20px;
+        font-weight: bold;
+        border: 2px solid grey;
+        padding: 12px;
+        background-color:yellow ;
+    }
