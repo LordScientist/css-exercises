@@ -3,6 +3,12 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: space-around; */
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
 }
 
 .box {
@@ -12,4 +18,11 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  align-self: center;
+  /* align-self: center; */
+  
 }
+
+
+/* So this is my solution,i did it to ways actually.
+ line 6 and 7 is one solution and line 9 and 19 is another*/
